@@ -1,0 +1,62 @@
+.dialNumber {
+  fill: yellow;
+  text-length: 2;
+  text-anchor: middle;
+  font-family: Seville-Condensed;
+  font-size:24;
+}
+
+.dialNumberM {
+  fill: #ffd733;
+  text-length: 2;
+  text-anchor: middle;
+  font-family: Colfax-Bold;
+  font-size:32;
+}
+
+.hrm {
+  fill: orange;
+  font-size: 50;
+  text-anchor: middle;
+  font-family: Tungsten;
+  font-weight: bold;
+}
+
+.date {
+  fill: #dcfade;
+  font-size: 50;
+  text-anchor: middle;
+  font-family: Colfax-Bold;
+  font-weight: bold;
+}
+
+.day {
+  fill: yellow;
+  font-size: 40;
+  text-anchor: middle;
+  font-family: Colfax-Bold;
+  font-weight: bold;
+}
+
+.steps {
+  font-family: Seville;
+  font-size: 70;
+  fill: lightblue;
+  font-weight: bold;
+  text-anchor: middle;
+}
+
+.batt {
+  fill: white;
+  font-size:28;
+  text-anchor: middle;
+  font-family: Tungsten;
+}
+
+.time {
+  fill: black;
+  font-size:48;
+  text-anchor: middle;
+  font-family: Seville-Bold;
+  font-weight: bold;
+}

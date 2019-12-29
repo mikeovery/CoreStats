@@ -1,0 +1,89 @@
+<svg>
+  <g id="Data">
+    <!-- Battery -->
+    <g id="Batt">
+      <arc id="batBkg" x="230" y="10" width="60" height="60" fill="fb-extra-dark-gray" arc-width="8" start-angle="0" sweep-angle="180" />
+      <arc id="batArc" x="230" y="10" width="60" height="60" fill="green" arc-width="8" start-angle="0" sweep-angle="0" />
+      <text id="batText" class="batt" x="260" y="50">99%</text>
+    </g>
+    <!-- Heart Rate -->
+    <g id="heartRate">
+      <rect id="hrm-fill" x="220" y="123" fill="white" width="52" height="39" />
+      <text id="hrm-data" class="hrm" x="246" y="160" />
+      <!--
+      <image id="dataIcon" href="icons/heartIcon.png" width="28" height="28" x="188" y="134" fill="fb-red" />
+      -->
+    </g>
+    <text id="dateDataM" class="day" x="35" y="195">mon</text>
+    <text id="dateDataD" class="date" x="30" y="116">99</text>
+    <!-- Steps -->
+    <g id="Steps">
+      <text id="stepCount" class="steps" x="200" y="230" text-length="5" />
+    </g>
+    <g id="activeMinutes" class="deviceData">
+      <arc id="arcBack" x="75" y="245" width="50" height="50" fill="fb-extra-dark-gray" arc-width="3" start-angle="0" sweep-angle="360" />
+      <arc id="arcFront" x="75" y="245" width="50" height="50" arc-width="3" fill="green" start-angle="0" sweep-angle="0" />
+      <image id="dataIcon" href="icons/amOpen.png" fill="yellow" width="32" height="32" x="84" y="255" />
+    </g>
+    <g id="elevationGain" class="deviceData">
+      <arc id="arcBack" x="175" y="245" width="50" height="50" fill="fb-extra-dark-gray" arc-width="3" start-angle="0" sweep-angle="360" />
+      <arc id="arcFront" x="175" y="245" width="50" height="50" fill="orange" arc-width="3" start-angle="0" sweep-angle="0" />
+      <image id="dataIcon" href="icons/floorsOpen.png" fill="red" width="32" height="32" x="184" y="255" />
+    </g>
+  </g>
+
+  <!-- Base Clock -->
+  <g id="Dial">
+    <text id="digitalTime" class="time" fill="#bcd8f8" x="54" y="35">12:00</text>
+    <g id="steps" class="deviceData">
+      <arc id="arcBack" x="5" y="245" width="50" height="50" fill="fb-extra-dark-gray" arc-width="3" start-angle="0" sweep-angle="360" />
+      <arc id="arcFront" x="5" y="245" width="50" height="50" fill="red" arc-width="3" start-angle="0" sweep-angle="0" />
+      <image id="dataIcon" href="icons/stepsOpen.png" fill="orange" width="32" height="32" x="14" y="255" />
+    </g>
+    <g id="distance" class="deviceData">
+      <arc id="arcBack" x="245" y="245" width="50" height="50" fill="fb-extra-dark-gray" arc-width="3" start-angle="0" sweep-angle="360" />
+      <arc id="arcFront" x="245" y="245" width="50" height="50" fill="yellow" arc-width="3" start-angle="0" sweep-angle="0" />
+      <image id="dataIcon" href="icons/distOpen.png" fill="green" width="32" height="32" x="254" y="255" />
+    </g>
+    <g id="minsBkg" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-4" y="-114" rx="4" ry="4" width="8" height="114" fill="black" />
+    </g>
+    <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-4" y="-110" rx="4" ry="4" width="6" height="110" fill="#e0e0e0" />
+    </g>
+    <g id="hoursBkg" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-6" y="-79" rx="6" ry="6" width="12" height="79" fill="black" />
+    </g>
+    <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-6" y="-75" rx="6" ry="6" width="10" height="75" fill="#ffd733" />
+    </g>
+    <circle cx="50%" cy="50%" r="10" fill="#444444" />
+  </g>
+
+  <g id="AOD" display="none">
+  </g>
+
+  <g id="DialAndNumbers">
+    <!--
+    <arc id="dial" x="0" y="0" width="300" height="300" fill="#000000" arc-width="3" start-angle="0" sweep-angle="360"/>
+    -->
+    <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-2" y="-120" rx="2" ry="2" width="2" height="110" fill="#fc8b3a" />
+    </g>
+    <text id="12" class="dialNumberM" x="150" y="26">12</text>
+    <text id="3" class="dialNumberM" x="285" y="158">3</text>
+    <text id="6" class="dialNumberM" x="150" y="295">6</text>
+    <text id="9" class="dialNumberM" x="15" y="158">9</text>
+    <!--
+    <text id="1" class="dialNumber" x="210" y="40">1</text>
+    <text id="2" class="dialNumber" x="262" y="88">2</text>
+    <text id="4" class="dialNumber" x="262" y="230">4</text>
+    <text id="5" class="dialNumber" x="210" y="275">5</text>
+    <text id="7" class="dialNumber" x="90" y="275">7</text>
+    <text id="8" class="dialNumber" x="38" y="230">8</text>
+    <text id="10" class="dialNumber" x="38" y="88">10</text>
+    <text id="11" class="dialNumber" x="90" y="40">11</text>
+    -->
+  </g>
+  
+</svg>
